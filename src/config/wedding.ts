@@ -1,9 +1,11 @@
-
 /**
  * CENTRAL WEDDING CONFIGURATION
- * Every editable detail of the invitation lives here.
- * Sample wedding details for Isabella & Noah.
- * Replace the values below with the real wedding details.
+ * InviteCraft demo template featuring Vijay Deverakonda & Rashmika Mandanna.
+ *
+ * IMPORTANT:
+ * This is a fictional/template preview, not an announcement or confirmation
+ * of a real wedding. Replace the sample date, venue, event details, and copy
+ * with confirmed details before using this configuration for a real event.
  */
 
 export type WeddingEvent = {
@@ -17,86 +19,87 @@ export type WeddingEvent = {
 
 export const wedding = {
   bride: {
-    firstName: "Isabella",
-    fullName: "Isabella Rose Anderson",
-    parents: "Daughter of Mr. James Anderson & Mrs. Emily Anderson",
+    firstName: "Rashmika",
+    fullName: "Rashmika Mandanna",
+    parents: "With the love and blessings of her family",
   },
 
   groom: {
-    firstName: "Noah",
-    fullName: "Noah Alexander Carter",
-    parents: "Son of Mr. Daniel Carter & Mrs. Grace Carter",
+    firstName: "Vijay",
+    fullName: "Vijay Deverakonda",
+    parents: "With the love and blessings of his family",
   },
 
-  initials: "I & N",
+  initials: "V & R",
 
-  /** Human readable date + time */
-  date: "Saturday, 12 December 2026",
+  /** SAMPLE DEMO DATE — replace with a confirmed date */
+  date: "Saturday, 20 November 2027",
 
   dayName: "Saturday",
-  dayNumber: "12",
-  monthName: "December",
-  year: "2026",
+  dayNumber: "20",
+  monthName: "November",
+  year: "2027",
 
   time: "5:00 PM onwards",
 
-  /** Used by countdown + calendar */
-  dateISO: "2026-12-12T17:00:00",
-  endISO: "2026-12-12T23:00:00",
+  /** Used by countdown + calendar; sample demo date */
+  dateISO: "2027-11-20T17:00:00",
+  endISO: "2027-11-20T23:00:00",
 
-  welcomeLine: "Together with our beloved families",
+  welcomeLine: "Together with the love and blessings of our families",
 
-  welcomeTitle: "Forever Starts Here",
+  welcomeTitle: "A Beautiful Beginning",
 
-  welcomeJoin: "between",
+  welcomeJoin: "and",
 
+  /** SAMPLE VENUE — replace with a confirmed venue */
   venue: {
-    name: "The Ivory Garden Estate",
-    address: "Palm Grove Road, Kakkanad, Kochi, Kerala 682030",
-    mapsQuery: "The Ivory Garden Estate, Kakkanad, Kochi, Kerala",
+    name: "The Royal Garden Palace",
+    address: "Sample Venue Address, Hyderabad, Telangana, India",
+    mapsQuery: "Sample wedding venue, Hyderabad, Telangana, India",
   },
 
   events: [
     {
       id: "welcome",
       title: "Welcome Celebration",
-      date: "Friday, 11 December 2026",
+      date: "Friday, 19 November 2027",
       time: "6:30 PM",
-      venue: "The Ivory Garden Estate, Rose Garden",
+      venue: "The Royal Garden Palace, Celebration Lawn",
       icon: "lantern",
     },
 
     {
       id: "ceremony",
       title: "Wedding Ceremony",
-      date: "Saturday, 12 December 2026",
+      date: "Saturday, 20 November 2027",
       time: "5:00 PM",
-      venue: "The Ivory Garden Estate, Garden Pavilion",
+      venue: "The Royal Garden Palace, Garden Pavilion",
       icon: "crescent",
     },
 
     {
       id: "reception",
       title: "Wedding Reception",
-      date: "Saturday, 12 December 2026",
+      date: "Saturday, 20 November 2027",
       time: "7:00 PM",
-      venue: "The Ivory Garden Estate, Grand Ballroom",
+      venue: "The Royal Garden Palace, Grand Ballroom",
       icon: "rings",
     },
 
     {
       id: "brunch",
-      title: "Farewell Brunch",
-      date: "Sunday, 13 December 2026",
+      title: "Family Brunch",
+      date: "Sunday, 21 November 2027",
       time: "10:30 AM",
-      venue: "The Ivory Garden Estate, Garden Terrace",
+      venue: "The Royal Garden Palace, Garden Terrace",
       icon: "dinner",
     },
   ] satisfies WeddingEvent[],
 
   dressCode: {
     description:
-      "Celebrate with us in elegant attire inspired by soft ivory, champagne gold, dusty rose, and the timeless beauty of a romantic garden.",
+      "Celebrate this love-story-inspired demo in elegant Indian festive wear, with rich burgundy, warm ivory, champagne gold, and soft floral tones.",
 
     colors: [
       {
@@ -131,40 +134,40 @@ export const wedding = {
   },
 
   invitationMessage:
-    "Two hearts, two stories, and one beautiful forever. With the love and blessings of our families, we joyfully invite you to celebrate as Isabella and Noah begin their journey as one. Your presence will make our special day truly unforgettable.",
+    "Two hearts, two journeys, and a beautiful story imagined in celebration of love. With the warmth and blessings of our families, join us for this special invitation-template preview featuring Rashmika and Vijay. This is a demo design; event details are placeholders.",
 
   quote:
-    "“Whatever our souls are made of, his and mine are the same.” — Emily Brontë",
+    "“Every great love story begins with a beautiful moment.”",
 
   guestInformation: [
     {
       title: "Arrival",
-      body: "Please arrive 20–30 minutes before the ceremony to settle in and enjoy the celebration.",
+      body: "For this demo, guests are invited to arrive 20–30 minutes before the ceremony.",
     },
 
     {
       title: "Dress Code",
-      body: "Elegant formal or semi-formal attire in ivory, champagne, dusty rose, sage, and other soft, complementary tones is encouraged.",
+      body: "Festive Indian attire or elegant formal wear in ivory, champagne, burgundy, dusty rose, or other complementary tones is suggested for this demo.",
     },
 
     {
       title: "Family",
-      body: "Our celebration is all about love and togetherness. Families and children are warmly welcome.",
+      body: "This template celebrates love, family, and togetherness. Update this note to reflect the event's confirmed arrangements.",
     },
 
     {
       title: "Parking",
-      body: "Parking facilities will be available at the venue. Please follow the signs and directions from our venue team.",
+      body: "Parking information is a placeholder. Add confirmed venue parking instructions before publishing.",
     },
 
     {
       title: "Photography",
-      body: "We would love for you to capture beautiful memories. During the ceremony, please avoid flash photography and keep the aisle clear.",
+      body: "Please update this section with the event host's photography preferences and venue guidelines.",
     },
 
     {
       title: "Gifts",
-      body: "Your love, blessings, and presence are the greatest gifts we could ever ask for.",
+      body: "Your love and blessings are the greatest gifts. Replace this note if the hosts have other preferences.",
     },
   ],
 
@@ -172,9 +175,9 @@ export const wedding = {
   musicSrc: "",
 
   footer: {
-    signOff: "With Love, Isabella & Noah",
+    signOff: "With Love, Rashmika & Vijay",
     thanks:
-      "Thank you for being part of our love story. We look forward to celebrating a beautiful new beginning with you.",
+      "Thank you for exploring this InviteCraft wedding invitation demo. Replace the sample details with verified event information before sharing it as a real invitation.",
   },
 } as const;
 
